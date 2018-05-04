@@ -1,0 +1,91 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="1" name="Android Suite">
+
+    <test name="SDK Battery Functional Testing">
+    <classes>
+        <class name="androidapp.Battery"/>
+    </classes>
+</test>
+
+    <test name="SDK Device Functional Testing">
+        <classes>
+            <class name="androidapp.Device"/>
+        </classes>
+    </test>
+
+    <test name="SDK Camera Functional Testing">
+        <classes>
+            <class name="androidapp.Camera"/>
+        </classes>
+    </test>
+
+   <!-- <test name="SDK Connectivity Functional Testing">
+        <classes>
+            <class name="androidapp.Connectivity"/>
+        </classes>
+    </test>
+
+    <test name="SDK Application Functional Testing">
+        <classes>
+            <class name="androidapp.Application"/>
+        </classes>
+    </test>
+
+    <test name="SDK Display Functional Testing">
+        <classes>
+            <class name="androidapp.Display"/>
+        </classes>
+    </test>
+
+    <test name="SDK Input Functional Testing">
+        <classes>
+            <class name="androidapp.Input"/>
+        </classes>
+    </test>
+
+
+    <test name="SDK Memory Functional Testing">
+        <classes>
+            <class name="androidapp.Memory"/>
+        </classes>
+    </test>
+
+    <test name="SDK Sensors Functional Testing">
+        <classes>
+            <class name="androidapp.Sensors"/>
+        </classes>
+    </test>
+
+    <test name="SDK Sound Functional Testing">
+        <classes>
+            <class name="androidapp.Sound"/>
+        </classes>
+    </test>
+
+    <test name="SDK Storage Functional Testing">
+        <classes>
+            <class name="androidapp.Storage"/>
+        </classes>
+    </test>
+
+    <test name="SDK Telephony Functional Testing">
+        <classes>
+            <class name="androidapp.Telephony"/>
+        </classes>
+    </test>-->
+
+</suite>
+        <!--
+            <class name="androidapp.Application"/>
+            <class name="androidapp.Battery"/>
+            <class name="androidapp.Camera"/>
+            <class name="androidapp.Connectivity"/>
+            <class name="androidapp.Device"/>
+            <class name="androidapp.Display"/>
+            <class name="androidapp.Input"/>
+            <class name="androidapp.Memory"/>
+            <class name="androidapp.Sensors"/>
+            <class name="androidapp.Sound"/>
+            <class name="androidapp.Storage"/>
+            <class name="androidapp.Telephony"/>
+        -->

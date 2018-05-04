@@ -1,0 +1,6 @@
+Appium project prerequisites:
+
+1. Install Appium Server from http://appium.io/downloads.html and run it
+2. Install ADB tools, https://www.youtube.com/watch?v=UkI9v878btI
+3. Set up ADB Path to windows: https://www.youtube.com/watch?v=EmimicZd6tI
+4. Connect android device via adb, http://www.technorange.com/2015/12/how-to-connect-your-android-device-to-adb-usb-driver-intterface/
